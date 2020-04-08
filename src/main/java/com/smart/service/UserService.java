@@ -13,6 +13,7 @@ public class UserService {
     private UserDao userDao;
     private LoginLogDao loginLogDao;
     int a;
+    int b;
 
 
 
