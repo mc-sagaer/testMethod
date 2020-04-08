@@ -12,6 +12,7 @@ import org.springframework.transaction.annotation.Transactional;
 public class UserService {
     private UserDao userDao;
     private LoginLogDao loginLogDao;
+
     int a;
     int b;
     int sssss;
