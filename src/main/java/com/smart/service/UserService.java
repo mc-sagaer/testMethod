@@ -24,6 +24,12 @@ public class UserService {
     public boolean hasMatchUser(String userName,String password){
         int matchCount = userDao.getMatchCount(userName,password);
         return matchCount>0;
+        int a =0;
+        int b;
+
+
+
+
     }
 
     public User findUserByUserName(String userName) {
