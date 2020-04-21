@@ -13,7 +13,7 @@ import java.sql.SQLException;
 @Repository
 public class UserDao {
     private JdbcTemplate jdbcTemplate;
-    int aA;
+    int aA;  // AAA
 
     private  final static String MATCH_COUNT_SQL = " SELECT count(*) FROM t_user  " +
             " WHERE user_name =? and password=? ";
